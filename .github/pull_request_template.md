@@ -11,7 +11,7 @@ Please include a summary of the changes and the related issue. Please also inclu
 
 ### Testing Considerations?
 
-Describe anything that 
+Describe anything that QA/Testing team members should consider when testing this change. e.g., Any areas of the system that are affected by this change that are not easily apparent? 
 
 ### Checklist:
 
