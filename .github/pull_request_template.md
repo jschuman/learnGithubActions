@@ -17,5 +17,4 @@ Please include a summary of the changes and the related issue. Please also inclu
 - [ ] Where applicable, I have made corresponding changes to the documentation
 - [ ] I have annotated this PR to describe the important files/code changes
 - [ ] I have updated the associated ticket(s) for this PR with any testing considerations for the QA team
-- [ ] My changes generate no new warnings
 - [ ] I have added tests that prove my fix is effective or that my feature works
