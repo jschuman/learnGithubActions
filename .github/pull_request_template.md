@@ -9,10 +9,6 @@ Please include a summary of the changes and the related issue. Please also inclu
 - [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
 - [ ] This change requires a documentation update
 
-### Testing Considerations?
-
-Describe anything that QA/Testing team members should consider when testing this change. e.g., Any areas of the system that are affected by this change that are not easily apparent? 
-
 ### Checklist:
 
 - [ ] My code follows the style guidelines of this project
@@ -20,6 +16,6 @@ Describe anything that QA/Testing team members should consider when testing this
 - [ ] I have commented my code, particularly in hard-to-understand areas
 - [ ] Where applicable, I have made corresponding changes to the documentation
 - [ ] I have annotated this PR to describe the important files/code changes
+- [ ] I have updated the associated ticket(s) for this PR with any testing considerations for the QA team
 - [ ] My changes generate no new warnings
 - [ ] I have added tests that prove my fix is effective or that my feature works
-
