@@ -1,0 +1,15 @@
+name: Notify Teams
+
+on:
+  pull_request:
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Send a Notification to Teams Channel
+      id: notify
+      uses: thechetantalwar/teams-notify@v2
+      with:
+        teams_webhook_url: ${{ secrets.TEAM_HOOK }}
+        message: "PR created in ${{ github.repository }}"
