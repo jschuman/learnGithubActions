@@ -1,6 +1,6 @@
 name: 5
 on:
-  # pull_request:
+  pull_request:
 jobs:
   send_email:
     runs-on: ubuntu-latest

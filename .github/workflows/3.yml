@@ -1,6 +1,6 @@
 name: 3
 on:
-  # pull_request:
+  pull_request:
 jobs:
   execute_tests:
     runs-on: ubuntu-latest
