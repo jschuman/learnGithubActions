@@ -12,4 +12,4 @@ jobs:
       uses: thechetantalwar/teams-notify@v2
       with:
         teams_webhook_url: ${{ secrets.TEAM_HOOK }}
-        message: "PR created in **${{ github.repository }}** by ${{ github.actor }}.  \nHere is the repository url: ${{ github.server_url }}/${{ github.repository }} \nHere is the PR url: ${{ github.event.pull_request.html_url }}"
+        message: "Pull Request created!\n\n Author: **${{ github.actor }}**\n\n Repository: [${{ github.repository }}](${{ github.server_url }}/${{ github.repository }})\n\nPull Request Link: ${{ github.event.pull_request.html_url }}"
