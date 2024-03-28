@@ -12,4 +12,4 @@ jobs:
       uses: thechetantalwar/teams-notify@v2
       with:
         teams_webhook_url: ${{ secrets.TEAM_HOOK }}
-        message: "<p><h1>Pull Request created!</h1></p><p>Author: <strong>${{ github.actor }}</strong></p><p>Repository: <a href='${{ github.server_url }}/${{ github.repository }}'>${{ github.repository }}</a></p>Pull Request Link: <a href='${{ github.event.pull_request.html_url }}'></a></p>"
+        message: "<h1>Pull Request created!</h1><br /><br />Author: <strong>${{ github.actor }}</strong><br />Repository: <a href='${{ github.server_url }}/${{ github.repository }}'>${{ github.repository }}</a><br />Pull Request <a href='${{ github.event.pull_request.html_url }}'>Link</a>"
